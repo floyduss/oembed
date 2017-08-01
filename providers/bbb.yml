@@ -1,0 +1,10 @@
+---
+- provider_name: bestbonusbets.com
+  provider_url: https://www.bestbonusbets.com
+  endpoints:
+  - schemes:
+    - http://www.bestbonusbets.com*
+    - http://bestbonusbets.com*
+    url: http://www.bestbonusbets.com/api/oembed/
+    example_urls:
+    - https://www.bestbonusbets.com/api/oembed/?format=json&url=https://www.bestbonusbets.com/odds/rugby-league/nrl/
